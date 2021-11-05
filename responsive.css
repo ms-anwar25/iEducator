@@ -1,0 +1,124 @@
+
+@media screen and (max-width: 1530px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        padding-left: 0;
+        height: 250px;
+        transition: all 1s ease-out;
+    }
+    .logo{
+        margin-left: 0;
+        padding-left: 0;
+        /* text-align: center; */
+    }
+    
+    .header{
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .search{
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .signup{
+        margin-left: 0;
+        margin-bottom: 10px;
+        padding-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+.top{
+    width: 100%;
+    
+}
+    .mainsection{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+       
+    }
+   
+
+    /* --------------------------- Hamburger ----------------------------- */
+    .burger{
+        display: block;
+    }
+    .logo-resp img{
+        width: 55px;
+        margin-left: 20px;
+    }
+
+    .h-resp{
+        height: 70px;
+    }
+
+    .v-resp{
+        opacity: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 860px){
+    .navbar{
+        height: 250px;
+        transition: all 1s ease-out;
+    }
+    
+    .first img{
+        display: none;
+    }
+    
+    .burger{
+        display: block;
+    }
+    .h-resp{
+        height: 70px;
+    }
+
+    .v-resp{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar{
+        height: 330px;
+        transition: all 1s ease-out;
+    }
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .header li{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .midbtn{
+        display: none;
+    }
+   
+    .about{
+        margin: 30px;
+    }
+   .burger{
+       display: block;
+   }
+   .h-resp{
+    height: 70px;
+}
+
+.v-resp{
+    opacity: 0;
+}
+}
+
+
+
